@@ -1,0 +1,32 @@
+{
+  "name": "purge-cloudflare",
+  "version": "0.1.0",
+  "description": "purge-cloudflare",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "npm run fix:eslint && npm run fix:prettier",
+    "fix:eslint": "eslint --fix",
+    "fix:prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookie-s/purge-cloudflare.git"
+  },
+  "author": "cookie-s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cookie-s/purge-cloudflare/issues"
+  },
+  "homepage": "https://github.com/cookie-s/purge-cloudflare#readme",
+  "dependencies": {
+    "cloudflare": "^2.7.0",
+    "debug": "^4.2.0",
+    "tsscmp": "^1.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "2.1.2"
+  }
+}
