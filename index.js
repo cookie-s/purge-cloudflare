@@ -26,7 +26,10 @@ exports.purgeAll = async (req, res) => {
     });
     debug(purgeRes);
 
-    return res.status(200).send(purgeRes);
+    return res.status(200).json({
+      response_type: "in_channel",
+      text: JSON.stringify(purgeRes),
+    });
   } catch (e) {
     console.log(e);
     return res.status(500).end();
