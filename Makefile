@@ -14,6 +14,3 @@ deploy:
 		--env-vars-file env.yml \
 		--timeout 2s \
 		--project $(PROJECT_ID)
-
-# vim: noexpandtab
-# TODO fix my vimrc
