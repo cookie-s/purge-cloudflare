@@ -1,7 +1,7 @@
 purge-cloudflare
 ================
 
-CloudFunctions invoked by Slack Slash Command to purge CloudFlare caches.
+CloudFunctions invoked by Slack Slash Command to purge Cloudflare caches.
 
 
 Deploy
